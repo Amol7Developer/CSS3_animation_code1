@@ -1,0 +1,19 @@
+div.example {
+    background-color: lightgrey;
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 600px) {
+    div.example {
+      font-size: 80px;
+      color: red;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+      color: blue;
+    }
+  }
+  
